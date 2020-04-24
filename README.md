@@ -11,7 +11,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-    implementation 'com.github.RxSino:RxPhoto:0.1.0'
+    implementation 'com.github.RxSino:RxPhoto:1.0.0'
 }
 
 ```
