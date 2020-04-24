@@ -9,9 +9,10 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.FileProvider;
 
+
+import androidx.core.content.FileProvider;
+import androidx.fragment.app.Fragment;
 
 import java.io.File;
 import java.io.IOException;
