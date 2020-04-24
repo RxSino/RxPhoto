@@ -1,5 +1,5 @@
 # RxPhoto
-- Android 10 拍照
+Android 10 拍照
 
 # How to
 ```groovy
