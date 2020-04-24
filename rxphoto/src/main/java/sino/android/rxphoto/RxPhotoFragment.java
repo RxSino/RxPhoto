@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 
-
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
 
