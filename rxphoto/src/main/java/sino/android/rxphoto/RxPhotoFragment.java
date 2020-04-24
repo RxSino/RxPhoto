@@ -70,9 +70,6 @@ public class RxPhotoFragment extends Fragment {
                 photoUri = createImageUri();
             } else {
                 photoFile = createImageFile();
-            }
-
-            if (photoFile != null) {
                 mPath = photoFile.getAbsolutePath();
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                     photoUri = FileProvider.getUriForFile(getContext(), authority, photoFile);
