@@ -1,22 +1,15 @@
 package sino.android.rxphoto;
 
 import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.ContentValues;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.FileProvider;
 
 import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
 import java.util.Objects;
 
 import io.reactivex.subjects.PublishSubject;
@@ -93,7 +86,6 @@ public class RxPhotoFragment extends Fragment {
         if (photoUri != null) {
             mUri = photoUri;
             starter.putExtra(MediaStore.EXTRA_OUTPUT, mUri);
-            starter.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
             startActivityForResult(starter, REQUEST_CODE);
         }
     }
