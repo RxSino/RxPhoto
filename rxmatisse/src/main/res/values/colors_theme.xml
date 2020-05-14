@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="blue_primary">#4A90E2</color>
+	<color name="blue_primary_dark">#4A90E2</color>
+	<color name="blue_item_checkCircle_backgroundColor">#4A90E2</color>
+	
+	<color name="blue_dark_primary">#3D51B4</color>
+	<color name="blue_dark_primary_dark">#3D51B4</color>
+	<color name="blue_dark_item_checkCircle_backgroundColor">#3D51B4</color>
+	
+	<color name="blue_light_primary">#00BBD2</color>
+	<color name="blue_light_primary_dark">#00BBD2</color>
+	<color name="blue_light_item_checkCircle_backgroundColor">#00BBD2</color>
+	
+	<color name="green_primary">#31c27c</color>
+	<color name="green_primary_dark">#31c27c</color>
+	<color name="green_item_checkCircle_backgroundColor">#31c27c</color>
+	
+	<color name="red_primary">#F24334</color>
+	<color name="red_primary_dark">#F24334</color>
+	<color name="red_item_checkCircle_backgroundColor">#F24334</color>
+	
+	<color name="yellow_primary">#F47D00</color>
+	<color name="yellow_primary_dark">#F47D00</color>
+	<color name="yellow_item_checkCircle_backgroundColor">#F47D00</color>
+	
+	<color name="dark_primary">#564D5E</color>
+	<color name="dark_primary_dark">#564D5E</color>
+	<color name="dark_item_checkCircle_backgroundColor">#564D5E</color>
+</resources>

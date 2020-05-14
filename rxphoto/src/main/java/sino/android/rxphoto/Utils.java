@@ -27,8 +27,7 @@ public final class Utils {
     }
 
     public static boolean isAndroidQ() {
-        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
-                && !Environment.isExternalStorageLegacy();
+        return Build.VERSION.SDK_INT >= 29 && !Environment.isExternalStorageLegacy();
     }
 
     public static boolean isExternalStorageWritable() {

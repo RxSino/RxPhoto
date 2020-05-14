@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="sino.android.rxmatisse">
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	
+	<application>
+		<activity android:name="sino.android.rxmatisse.ui.MatisseActivity" />
+		<activity android:name="sino.android.rxmatisse.ui.AlbumPreviewActivity" />
+		<activity android:name="sino.android.rxmatisse.ui.SelectedPreviewActivity" />
+	</application>
+
+</manifest>

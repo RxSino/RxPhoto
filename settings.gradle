@@ -1,3 +1,4 @@
 rootProject.name='RxPhoto'
 include ':app'
 include ':rxphoto'
+include ':rxmatisse'
